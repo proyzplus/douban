@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/comment",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#37ac57",
+    "navigationBarTitleText": "阿卓online电影",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

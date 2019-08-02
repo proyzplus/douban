@@ -1,0 +1,6 @@
+<view class='searchbar'>
+  <navigator wx:if="{{isnavigator}}" url='/pages/search/search' class='serach-nav'></navigator>
+  <view class='search-input' wx:else>
+    <input bindinput='onInputEvent' class='input-se' placeholder='搜索'></input>
+  </view>
+</view>

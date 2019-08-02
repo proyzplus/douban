@@ -1,0 +1,20 @@
+<view class="container">
+  <view class='item-group' bindtap="onItemTapEvent">
+    <image class="thu" src='{{thumbnail}}'></image>
+    <text class='item-title'>{{title}}</text>
+    <text class='item-rate'>{{rate}}分</text>
+  </view>
+
+  <view class='comment-title'>
+    <text>全部影评({{total}})</text>
+  </view>
+
+  <onecomment wx:for="{{comments}}" item="{{item}}"></onecomment>
+
+  <view class='page-btn-group'>
+    <button bindtap='onPrePageTag' disabled="{{start<=1}}" loading="{{preLoading}}" class='page-btn'>上一页</button>
+    <button bindtap='onNextPageTag' loading="{{nextLoading}}" class='page-btn'>下一页</button>
+  </view>
+
+
+</view>

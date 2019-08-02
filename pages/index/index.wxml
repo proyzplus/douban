@@ -1,0 +1,29 @@
+<searchbar isnavigator="{{true}}"></searchbar>
+<!--电影-->
+<indexmodule title="电影" items="{{movies}}" moreurl="/pages/list/list?type=movie" type="movie"></indexmodule>
+<!--电视剧-->
+<indexmodule title="电视剧" items="{{tvs}}" moreurl="/pages/list/list?type=tv" 
+type="tv"></indexmodule>
+<!--综艺-->
+<indexmodule title="综艺" items="{{shows}}" moreurl="/pages/list/list?type=show" 
+type="show"></indexmodule>
+
+
+
+<!-- <view class='module-group'>
+  <view class='module-top'>
+    <view class='module-title'>综艺节目</view>
+    <navigator class='module-more'>更多</navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x="{{true}}">
+    <navigator wx:for="{{shows}}" wx:key="{{item.title}}" class='item-nav'>
+      <view class='item-group'>
+        <view class='img-group'>
+          <image class='img' src='{{item.cover.url}}'></image>
+        </view>
+        <view class='img-title'>{{item.title}}</view>
+        <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view> -->
